@@ -1,5 +1,14 @@
-const bit = require('./BinaryIn2Dmatrix')
+// const bit = require('./BinaryIn2Dmatrix')
 
 
-let arr = [[10,20,30,40],[15,25,35,45],[28,29,37,49],[33,34,,38,50]]
-let a = bit.binary(arr, 37)
+// let arr = [[10,20,30,40],[15,25,35,45],[28,29,37,49],[33,34,,38,50]]
+// let a = bit.binary(arr, 37)
+
+
+let arr = ['[',']','[']
+
+let b = new Set([...arr]);
+
+console.log(b)
+
+
